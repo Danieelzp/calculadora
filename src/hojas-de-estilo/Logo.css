@@ -1,0 +1,12 @@
+.nestle-logo-contenedor {
+    width: 100%;
+    height: 50px;
+    margin: 0px 8px 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nestle-logo {
+    height: 60px;
+  }
