@@ -1,0 +1,35 @@
+.contenedor-calculadora {
+  width: 420px;
+  height: 480px;
+  padding: 14px;
+  background-color: #dedede;
+  border-radius: 30px;
+  border: 5px solid white;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.637);
+}
+
+.panel-solar{
+  height: 45px;
+  width: 210px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: bold;
+  background-color: #7e1a1ae1;
+  color: white;
+  margin: 4px;
+  margin-right: 8px;
+  user-select: none;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.panel-solar-encendido{
+  box-shadow: 5px 10px 20px red inset;
+}
+
+.panel-solar-apagado{
+  box-shadow: none;
+
+}

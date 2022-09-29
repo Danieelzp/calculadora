@@ -1,15 +1,23 @@
 .input {
-    height: 62px;
-    border-radius: 50px;
+    height: 60px;
+    border-radius: 35px;
     margin-bottom: 20px;
+    margin-top: 12px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-weight: bold;
-    font-size: 30px;
-    background-color: #0a0a23;
-    color: white;
+    font-family: Luto, sans-serif;
+    font-size: 40px;
+    background-color: #747468;
+    color: #202529;
     padding: 11px 30px 11px 11px;
-    margin: 1px solid #888;
+    border: 1px solid #747468;
     box-shadow: -1px 4px 1px 1px white;
+    white-space: nowrap;
+    overflow: hidden;
 } 
+
+.overflow-clip {
+    text-overflow: clip;
+  }
